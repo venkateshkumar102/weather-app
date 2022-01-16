@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.rcard{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.rcon{
+    padding: 10px;
+    text-align: center;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px;
+    width: 400px;
+    height: 200px;
+}
+.rcon>p{
+    padding-top: 10px;
+}
+.rcon>button{
+    margin-top: 10px;
+    height: 45px;
+    width: 80px;
+    border-radius: 6px;
+    border: none;
+}
